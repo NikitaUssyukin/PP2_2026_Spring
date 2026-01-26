@@ -2,7 +2,7 @@
 
 # string are immutable in python - you cannot change the string directly
 
-a = "cat"
+a = "cAT"
 
 a.capitalize()
 

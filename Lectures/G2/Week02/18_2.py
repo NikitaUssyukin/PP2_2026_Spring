@@ -4,10 +4,14 @@
 
 a = "cat"
 
-# this gives us an error
-# a[0] = "r"
+a = a.replace('c', 'r')
+print(a)
 
-# but we can give a different value to a variable
-a = "rat"
+# or
 
+a = "cat"
+b = 'c'
+c = 'r'
+
+a = a.replace(b, c)
 print(a)

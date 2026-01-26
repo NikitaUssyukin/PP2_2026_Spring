@@ -1,6 +1,12 @@
 # Lists (like 1D arrays in C++)
 
-a = [1, 2, 3]
+# elements of the list can be modified
+a = [1, 3.14, True, "Parrot"]
+
+a[0] += 1
+a[1] /= 2
+a[2] *= 3
+a[3] *= 4
 
 print(a)
 
