@@ -1,17 +1,21 @@
 # Sets
 
-ourset = {"BMW", "Toyota", "Mercedes"}
+ourset = {"Toyota", "Hyundai", "Lexus", "Tesla", "Changhan"}
 
-ourset.add("Lexus")
-ourset.add("Zeekr")
-ourset.add("Audi")
+ourset.add("Subaru")
+ourset.add("Chevrolet")
 
-if "smth" in ourset:
-    print("smth found")
+if "Toyota" in ourset:
+    print("Toyota found")
 else:
-    print("smth not found")
+    print("Toyota not found")
 
-if "smth" not in ourset:
-    print("Honda found")
+if "Tesla" not in ourset:
+    print("Tesla not found")
 else:
-    print("Honda not found")
+    print("Tesla found")
+
+if "Zeekr" in ourset:
+    print("Zeekr found")
+else:
+    print("Zeekr not found")

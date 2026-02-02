@@ -1,12 +1,16 @@
 # Sets
 
-ourset = {}
+ourset = {"Toyota", "Hyundai", "Lexus", "Tesla", "Changhan"}
 
-# ourset.add()
+ourset.add("Subaru")
 
-# print(ourset)
+print(ourset)
 
-# ourset.add()
-# ourset.add()
+ourset.add("Toyota")
+ourset.add("Chevrolet")
 
-# print(ourset)
+print(ourset)
+
+ourset.remove("Tesla") # KeyError if value does not exist
+
+print(ourset)

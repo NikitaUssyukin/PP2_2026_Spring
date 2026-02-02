@@ -1,10 +1,11 @@
 # Tuples
 
-ourtuple = ()
+ourtuple = ("Toyota", "Camry", 2021)
 
-# make, model, year, color = ourtuple
+print(type(ourtuple))
 
-# print(make)
-# print(model)
-# print(year)
-# print(color)
+make, model, year = ourtuple
+
+print(make)
+print(model)
+print(year)

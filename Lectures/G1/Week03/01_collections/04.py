@@ -1,5 +1,0 @@
-# Sets
-
-ourset = {}
-
-print(ourset)

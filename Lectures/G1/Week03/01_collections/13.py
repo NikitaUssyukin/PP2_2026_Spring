@@ -11,6 +11,6 @@ ourdict["otherDict"]["key"] = "new value"
 print(ourdict)
 print(ourdict["otherDict"])
 
-ourdict["otherDict"]["key"] = "new value"
+ourdict["otherDict"]["key"] = "some other new value"
 
 print(ourdict)

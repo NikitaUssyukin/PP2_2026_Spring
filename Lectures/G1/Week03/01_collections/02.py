@@ -1,5 +1,5 @@
 # Tuples
 
-ourtuple = () # assosiated collection of values
+ourtuple = ("Toyota", "Camry", 2021) # assosiated collection of values
 
 print(ourtuple)
