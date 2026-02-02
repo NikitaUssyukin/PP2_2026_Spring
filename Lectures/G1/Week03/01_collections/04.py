@@ -1,0 +1,5 @@
+# Sets
+
+ourset = {}
+
+print(ourset)
