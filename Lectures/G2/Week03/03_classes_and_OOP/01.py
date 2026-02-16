@@ -1,4 +1,7 @@
-# Classes and objects
+# OOP - Object-Oriented Programming
+# A way to structure code around "objects" - entities that combine data and behavior
+# A class is a blueprint (like a custom data type)
+# An object is an instance of that blueprint (like a variable of that data type)
 
 class Person:
     name = "Mark"

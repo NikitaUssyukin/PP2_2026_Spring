@@ -1,4 +1,6 @@
-# Classes and objects
+# Dunder (double underscore) methods are special methods Python calls automatically
+# __init__ is called when creating an object
+# __str__ is called by print() and str()
 
 class Person:
     def __init__(self, name, age):
