@@ -3,10 +3,17 @@
 # generators
 
 # https://docs.python.org/3/tutorial/classes.html#generators
+
 def our_range(start, stop, step=1):
     while(start < stop):
         yield start
         start += step
 
-for num in our_range(1, 10):
-    print(num)
+our_range_gen = our_range(1, 10)
+
+print(next(our_range_gen))
+print(next(our_range_gen))
+print(next(our_range_gen))
+
+for x in our_range(1, 10):
+    print(x, end=' ')

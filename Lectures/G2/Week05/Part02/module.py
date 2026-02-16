@@ -7,3 +7,4 @@ def say_hi():
 
 if __name__ == '__main__':
     print("hi from module")
+    print("some module testing logic, etc, etc...")

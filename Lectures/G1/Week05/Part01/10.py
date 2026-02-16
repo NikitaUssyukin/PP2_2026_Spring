@@ -2,7 +2,7 @@
 
 # generators
 
-# https://docs.python.org/3/tutorial/classes.html#iterators
+# https://docs.python.org/3/tutorial/classes.html#generators
 
 def our_range(start, stop, step=1):
     while(start < stop):
