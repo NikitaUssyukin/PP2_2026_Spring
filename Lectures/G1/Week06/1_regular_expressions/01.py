@@ -9,6 +9,9 @@
 # Python regex HOWTO - tutorial for python regexes
 # https://docs.python.org/3/howto/regex.html
 
+# Reference (documentation article) on re module (python regex)
+# https://docs.python.org/3/library/re.html
+
 # Online regex engine to test regexes, supports python flavour
 # https://regex101.com/#python
 

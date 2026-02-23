@@ -1,7 +1,7 @@
 # metacharacters
 # . ^ $ * + ? { } [ ] \ | ( )
 # . - any symbol 
-# ^ - matches at the beginning of the string
+# ^ - (caret) matches at the beginning of the string 
 # $ - matches at the end of the string
 # * - quantifier, 0 or more repetitions
 # + - quantifier, 1 or more repetitions
