@@ -1,0 +1,20 @@
+{
+    "make": "Ferrari",
+    "model": "458 Italia",
+    "price": 300000,
+    "features": [
+        "V8",
+        "rear-wheel drive",
+        "carbon ceramic brakes",
+        {
+            "seats": "eco-leather",
+            "steering-wheel": "racing",
+            "interior-extras": [
+                null
+            ]
+        }
+    ],
+    "available": true,
+    "accidents": null,
+    "year": 2012
+}
