@@ -1,7 +1,7 @@
 file_name = 'new.txt'
 
-with open(file_name, 'w') as file:
-    file.write('This was written from 18.py\n')
+with open(file_name, 'a') as file:
+    file.write('This was appended from 18.py\n')
 
 '''
 'r'  -  read mode
