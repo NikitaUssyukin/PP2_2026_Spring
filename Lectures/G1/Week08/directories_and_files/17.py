@@ -1,6 +1,11 @@
-file_name = 'test.txt'
+file_name = 'new.txt'
 
-with open(file_name, 'r') as file:
-    print('Closed:', file.closed)
+with open(file_name, 'w') as file:
+    file.write('This was written from 17.py\n')
 
-print('Closed:', file.closed)
+'''
+'r'  -  read mode
+'w'  -  write mode
+'a'  -  append mode
+'x'  -  create mode
+'''

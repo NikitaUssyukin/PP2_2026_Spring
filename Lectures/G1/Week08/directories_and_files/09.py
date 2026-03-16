@@ -4,9 +4,11 @@ def check_dir_file(name):
     return 'Is file/Is folder: ' + str(os.path.isfile(name)) + '/' + str(os.path.isdir(name))
 
 path = os.getcwd()
+# print(path)
 
 for entry in os.listdir(path):
     full_path = os.path.join(path, entry)
+    print(full_path)
     existence = os.access(full_path, os.F_OK)
     readability = os.access(full_path, os.R_OK)
     writability = os.access(full_path, os.W_OK)

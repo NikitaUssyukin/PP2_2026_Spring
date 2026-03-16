@@ -1,7 +1,6 @@
 file_name = 'test.txt'
 
-file = open(file_name, 'r')
-# by default, files are open in 'r' mode
+file = open(file_name, 'w')
 
 '''
 'r'  -  read mode
@@ -11,4 +10,5 @@ file = open(file_name, 'r')
 '''
 
 print(file)
-print(file.read(), end='')
+print(file.read(), end='') # Error - file open in write mode
+                           # In write mode, you cannot read a file

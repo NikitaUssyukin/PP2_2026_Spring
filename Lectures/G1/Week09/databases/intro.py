@@ -21,7 +21,7 @@
 # We're going to use CRUD operations to work with information in our DB
 # For that, we're going to use the following SQL keywords:
 # Create - INSERT
-# Read - SELECT
+# Read   - SELECT
 # Update - UPDATE
 # Delete - DELETE
 

@@ -1,7 +1,6 @@
 file_name = 'test.txt'
 
-file = open(file_name, 'r')
+with open(file_name, 'r') as file:
+    print('Closed:', file.closed)
 
-print('Closed:', file.closed)
-file.close()
 print('Closed:', file.closed)
