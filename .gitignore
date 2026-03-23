@@ -1,0 +1,22 @@
+# System files
+.DS_store
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz
+*.pyzwzw
+
+
+# Other files
+plan.txt
+.vscode
+
+# Directories
+Other
+__pycache__
