@@ -12,6 +12,8 @@ colorBLUE = (0, 0, 255)
 colorWHITE = (255, 255, 255)
 colorBLACK = (0, 0, 0)
 
+clock = pygame.time.Clock()
+
 LMBpressed = False
 THICKNESS = 5
 
@@ -43,3 +45,4 @@ while running:
                 screen.fill(colorBLACK)
     
     pygame.display.flip()
+    clock.tick(60)

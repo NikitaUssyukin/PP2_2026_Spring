@@ -6,12 +6,14 @@ screen = pygame.display.set_mode((800, 600))
 
 red = (255, 0, 0)
 blue = (0, 0, 255)
+black = (0, 0, 0)
+white = (255, 255, 255)
 
 running = True
 
 clock = pygame.time.Clock()
 
-font = pygame.font.SysFont("comicsansms", 72)
+font = pygame.font.SysFont("comicsansms", 144)
 
 text = font.render("Hello KBTU", True, blue)
 
@@ -34,7 +36,7 @@ while running:
     if keys[pygame.K_UP]:
         y -= 1
         
-    screen.fill((0, 0, 0))
+    screen.fill(black)
 
     screen.blit(text, (x, y))
     

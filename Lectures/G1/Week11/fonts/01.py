@@ -11,7 +11,7 @@ running = True
 
 clock = pygame.time.Clock()
 
-font = pygame.font.SysFont("comicsansms", 72)
+font = pygame.font.SysFont("comicsansms", 144)
 
 text = font.render("Hello KBTU", True, blue)
 

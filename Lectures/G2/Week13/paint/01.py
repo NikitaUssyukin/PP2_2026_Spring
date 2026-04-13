@@ -12,22 +12,22 @@ colorBLUE = (0, 0, 255)
 colorWHITE = (255, 255, 255)
 colorBLACK = (0, 0, 0)
 
+clock = pygame.time.Clock()
+
 LMBpressed = False
 THICKNESS = 5
 
-running = True
+done = False
 
-while running:
+while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            done = True
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             print("LMB pressed!")
             LMBpressed = True
         if event.type == pygame.MOUSEMOTION:
             print(f"Position of the mouse: {event.pos}, LMBpressed: {LMBpressed}")
-            if LMBpressed:
-                pygame.draw.rect(screen, colorRED, (event.pos[0], event.pos[1], THICKNESS, THICKNESS))
         if event.type == pygame.MOUSEBUTTONUP and event.button == 1:
             print("LMB released!")
             LMBpressed = False
@@ -38,8 +38,14 @@ while running:
             if event.key == pygame.K_MINUS:
                 print("reduced thickness")
                 THICKNESS -= 1
-            if event.key == pygame.K_c:
-                print("canvas cleared")
-                screen.fill(colorBLACK)
-    
+
     pygame.display.flip()
+    clock.tick(60)
+
+'''
+
+x1, y1
+
+x2, y2
+
+'''

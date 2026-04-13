@@ -32,15 +32,8 @@ while not done:
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             print("LMB pressed!")
             LMBpressed = True
-            currX = event.pos[0]
-            currY = event.pos[1]
-            prevX = event.pos[0]
-            prevY = event.pos[1]
         if event.type == pygame.MOUSEMOTION:
-            print("Position of the mouse:", event.pos)
-            if LMBpressed:
-                currX = event.pos[0]
-                currY = event.pos[1]
+            print(f"Position of the mouse: {event.pos}, LMBpressed: {LMBpressed}")
         if event.type == pygame.MOUSEBUTTONUP and event.button == 1:
             print("LMB released!")
             LMBpressed = False
@@ -51,11 +44,6 @@ while not done:
             if event.key == pygame.K_MINUS:
                 print("reduced thickness")
                 THICKNESS -= 1
-
-    pygame.draw.line(screen, colorRED, (prevX, prevY), (currX, currY), THICKNESS)
-    
-    prevX = currX
-    prevY = currY
 
     pygame.display.flip()
     clock.tick(60)

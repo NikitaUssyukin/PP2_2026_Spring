@@ -20,7 +20,7 @@ def play_sound(path):
     global _sound_library
     sound = _sound_library.get(path)
     if sound is None:
-        # os.sep is the path separator for the current OS ('/' on mac/linux, '\\' on windows)
+        # os.sep is the path separator for the current OS ('/' on mac/linux, '\' on windows)
         canonicalized_path = path.replace('/', os.sep).replace('\\', os.sep)
         sound = pygame.mixer.Sound(canonicalized_path)
         _sound_library[path] = sound
